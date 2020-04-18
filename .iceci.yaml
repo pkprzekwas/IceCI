@@ -9,4 +9,5 @@ steps:
     image: busybox
     script: |
       echo "step 2"
+      echo "work, work, work"
       env
