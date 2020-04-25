@@ -1,6 +1,24 @@
 steps:
-- name: hello
+- name: hello-1
   containerRun:
     image: busybox
     script: |
+      echo 'Hello world!'
+- name: hello0
+  containerRun:
+    image: busybox
+    script: |
+      sleep 5
+      echo 'Hello world!'
+- name: hello1
+  containerRun:
+    image: busybox
+    script: |
+      sleep 15
+      echo 'Hello world!'
+- name: hello2
+  containerRun:
+    image: busybox
+    script: |
+      sleep 15
       echo 'Hello world!'
